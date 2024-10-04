@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa; /* Light background for contrast */
+}
+
+h1 {
+    color: #333;
+}
+
+.custom-input-group {
+    justify-content: center; 
+}
+
+.custom-input {
+    width: 500px; 
+    height:70px;
+    border-radius: 25px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+    border:2px solid;
+}
+
+.custom-input:focus {
+   
+    outline: none; 
+}
+
+.btn-search {
+    border-radius: 25px; 
+    padding: 10px 30px; 
+    font-size: 16px; 
+    background-color: #007bff; 
+    transition: background-color 0.3s, transform 0.2s; 
+}
+
+.btn-search:hover {
+    background-color: #0056b3; 
+    transform: translateY(-2px); 
+}
+
+.img-block {
+    border-radius: 8px;
+    overflow: hidden;
+    margin-top: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+}
+
+.img-block:hover {
+    transform: scale(1.05);
+    cursor:pointer;
+}
+
+.img-block img {
+    width: 100%;
+    height: auto;
+}
+
+.download-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: white;
+    background: rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    border-radius: 50%;
+    transition: background 0.3s;
+}
+
+.download-icon:hover {
+    background: rgba(0, 0, 0, 0.8);
+}
+
+#load {
+    display: none;
+}
